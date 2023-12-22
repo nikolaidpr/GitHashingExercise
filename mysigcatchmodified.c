@@ -18,6 +18,7 @@ void custom_sigint_handler(int signo)
     }
 }
 
+
 int main()
 {
     // Register the custom signal handler for SIGINT
